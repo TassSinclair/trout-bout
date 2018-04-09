@@ -21,7 +21,7 @@ The rules are available [on the official website](https://images-cdn.fantasyflig
 
 ### Assemble
 
-- Glue in the hexagonal inserts for the tiles. Make sure the triple-trout tiles are all the same colour. Same for the double-trout and single-trout tiles
+- Glue in the hexagonal inserts for the tiles. Ensure each type of tile is matched to one colour.
 - ... that's it!
 
 
