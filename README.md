@@ -2,11 +2,11 @@
 
 The iceberg is melting, grab as many trout as you can!
 
-3D printable version of "[Hey, That's my Fish!](https://www.fantasyflightgames.com/en/products/hey-thats-my-fish/products/hey-thats-my-fish/)". 
+3D printable replacement pieces for "[Hey, That's my Fish!](https://www.fantasyflightgames.com/en/products/hey-thats-my-fish/products/hey-thats-my-fish/)". 
 
 ## Rules
 
-The rules are available [on the official website](https://images-cdn.fantasyflightgames.com/ffg_content/hey-thats-my-fish-board-game/hey-thats-my-fish-rulebook.pdf).
+The rules are available [on the game's website](https://images-cdn.fantasyflightgames.com/ffg_content/hey-thats-my-fish-board-game/hey-thats-my-fish-rulebook.pdf).
 
 ### TL;DR:
 
@@ -28,7 +28,5 @@ The rules are available [on the official website](https://images-cdn.fantasyflig
 
 ### Assemble
 
-- Glue in the hexagonal inserts for the tiles. Ensure each type of tile is matched to one colour.
-- ... that's it!
-
+- Match up each tile with its coloured insert, and glue it in.
 
