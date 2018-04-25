@@ -17,6 +17,8 @@ The rules are available [on the game's website](https://images-cdn.fantasyflight
 
 ### Print
 
+*Print the tiles and inserts on 0.1mm layer height.*
+
 - 10 triple-trout tiles
   - and 10 hexagonal inserts of the same colour
 - 20 double-trout tiles
