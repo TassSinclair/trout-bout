@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Designing and Printing Trout Bout</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/sinclair.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background="images/trout-bout-play.jpg">
+				<div class="shady">
+					<h1>Designing and printing Trout Bout</h1>
+					<sub>Andrew Hamilton (@TassSinclair)</sub>
+				</div>
+			</section>
+			<section>
+				<h2>This talk is about...</h2>
+				<ul>
+					<li>
+						A beginner's journey using Blender to design replacement board game pieces
+					</li>
+					<li>
+						Using free/open-source tools throughout the design and print workflow
+					</li>
+				</ul>
+			</section>
+			<section>
+				<section data-background="images/hey-thats-my-fish-shaded.jpg">
+					<h2>Hey, That's my Fish!</h2>
+					<div class="columns">
+						<img src="images/hey-thats-my-fish-box.png" />
+						<ul>
+							<li>60 fish tiles
+								<ul>
+									<li>30 single, 20 double, 10 triple</li>
+								</ul>
+							</li>
+							<li>16 penguin tokens
+								<ul>
+									<li>4 red, 4 yellow, 4 green, 4 blue</li>
+								</ul>
+
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section data-background="images/hey-thats-my-fish-overview.jpg">
+				</section>
+				<section data-background="images/hey-thats-my-fish-shaded.jpg">
+					<h1>Gameplay</h1>
+					<ul>
+						<li>Players take turns to collect the most fish</li>
+						<li>Penguins can move across adjacent fish tiles</li>
+						<li>Penguins "pick up" fish tiles when they move away</li>
+						<li>Game finishes when penguins are unable to move</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Fish tiles</h2>
+					<div style="display: flex; justify-content: center;">
+						<figure>
+							<img src="images/trout-2.svg" style="height:250px;padding:0 50px;" />
+							<figcaption>.svg fish stencils</figcaption>
+						</figure>
+						<span style="font-size: 5em;line-height:1.6em;">+</span>
+						<figure>
+							<img src="images/tile.png" style="height:250px;padding:0 50px;" />
+							<figcaption>tile shape</figcaption>
+						</figure>
+						<span style="font-size: 5em;line-height:1.6em;">+</span>
+						<figure>
+							<img src="images/insert.png" style="height:250px;padding:0 50px;" />
+							<figcaption>tile insert shape</figcaption>
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>.svg fish stencils</h2>
+					<p>Traced with Inkscape</p>
+					<div style="display: flex; justify-content: center;">
+						<img src="images/trout-1.svg" style="height:250px;padding:0 50px;" />
+						<img src="images/trout-2.svg" style="height:250px;padding:0 50px;" />
+						<img src="images/trout-3.svg" style="height:250px;padding:0 50px;" />
+					</div>
+				</section>
+				<section>
+					<h2>Tiles and tile inserts</h2>
+					<p>Modelled with Blender</p>
+					<video style="height:400px;padding:0 50px;" autoplay loop>
+						<source src="images/triple-tile-showoff.webm" />
+					</video>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Penguin tokens</h2>
+					<div class="columns">
+						<img src="images/penguin-tutorial.png">
+						<ul>
+							<li>Based on "Penguins from Spheres" tutorial from "Blender: Noob to Pro" Wikibook</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h2>Subdivision modifier</h2>
+					<div style="display: flex; justify-content: center;">
+						<figure>
+							<img src="images/penguin-raw.png" style="height:350px;padding:0 50px;" />
+							<figcaption>raw model
+								<br/>(39kb exported)</figcaption>
+						</figure>
+						<span style="font-size: 5em;line-height:1.6em;">→</span>
+						<figure>
+							<img src="images/penguin-subdivided.png" style="height:350px;padding:0 50px;" />
+							<figcaption>subdivided model
+								<br/>(587kb exported)</figcaption>
+						</figure>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Slicing</h2>
+					<ul>
+						<li>Cura 3.2.1</li>
+						<li>Import .stl files</li>
+						<li>Export .gcode files</li>
+					</ul>
+				</section>
+				<section>
+					<div class="columns">
+						<img src="images/penguin-0-percent.png" style="height: 400px;" />
+						<ul>
+							<li>Flat base</li>
+							<li>0.1mm layer height</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div class="columns">
+						<img src="images/penguin-30-percent.png" style="height: 400px;" />
+						<ul>
+							<li>Wings attached to the torso</li>
+							<li>Low center of gravity</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<div class="columns">
+						<img src="images/penguin-90-percent.png" style="height: 400px;" />
+						<ul>
+							<li>Support pillar for the beak</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section data-background="images/printing-tiles-shaded.jpg">
+					<h2>Printing</h2>
+					<ul>
+						<li>Cocoon Create 3D Printer Touch
+							<ul>
+								<li>PLA filament</li>
+							</ul>
+						</li>
+						<li>OctoPrint
+							<ul>
+								<li>running on a Raspberry Pi</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section data-background="images/printing-tiles.jpg">
+				</section>
+				<section data-background="images/printing-tiles-shaded.jpg">
+					<h2>OctoPrint</h2>
+					<ul>
+						<li>Send print jobs over wifi</li>
+						<li>Web interface to monitor print progress</li>
+						<li>Supports webcam feed and plugins</li>
+						<li>Provides an API with printer status and job progress</li>
+					</ul>
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Sharing</h2>
+					<div class="columns">
+						<img src="images/github-repo.qr-code.png" style="width: 250px;" />
+						<ul>
+							<li>github.com/TassSinclair/trout-bout</li>
+							<li>Revision history</li>
+							<li>Visualise .stl files online</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<img src="images/github-diff.png" />
+				</section>
+			</section>
+			<section>
+				<section>
+					<h2>Summary</h2>
+					<ul>
+						<li>Tracing trout stencils in
+							<strong>Inkscape</strong>
+						</li>
+						<li>Modelling penguin and tile shapes in
+							<strong>Blender</strong>
+						</li>
+						<li>Slicing pengin and tile shapes in
+							<strong>Cura</strong>
+						</li>
+						<li>Printing everything on the
+							<strong>3D Printer Touch</strong>
+						</li>
+						<li>Sharing stencils and models on
+							<strong>GitHub</strong>
+						</li>
+					</ul>
+				</section>
+				<section data-background="images/all-pieces.jpg">
+				</section>
+				<section>
+					<h2>Would you like to know more?</h2>
+					<figure>
+						<img src="images/sinclair-studios.qr-code.png" />
+						<figcaption>sinclairstudios.net</figcaption>
+					</figure>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+			],
+			width: "80%",
+			height: "80%",
+			margin: 0,
+			minScale: 0.9,
+			maxScale: 0.9
+		});
+		Reveal.addEventListener('slidechanged', function (event) {
+			var video = event.currentSlide.querySelector('video');
+			if (video) {
+				video.load();
+			}
+		});
+	</script>
+</body>
+
+</html>
