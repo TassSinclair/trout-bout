@@ -61,7 +61,7 @@ body {
 }
 
 .reveal .shady {
-  padding: 0.5em 0.25em;
+  padding: 1em 0.25em;
   background-color: #fdf6e3;
   display: inline-block;
   border-radius: 30px;
