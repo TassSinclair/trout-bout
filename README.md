@@ -2,7 +2,7 @@
 
 The iceberg is melting, grab as many trout as you can!
 
-3D printable replacement pieces for "[Hey, That's my Fish!](https://www.fantasyflightgames.com/en/products/hey-thats-my-fish/products/hey-thats-my-fish/)". 
+3D printable replacement pieces for ["Hey, That's my Fish!"](https://www.fantasyflightgames.com/en/products/hey-thats-my-fish/products/hey-thats-my-fish/).
 
 ## Rules
 
