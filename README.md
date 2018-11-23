@@ -1,4 +1,4 @@
-# Trout Bout
+<img alt="Trout Bout" src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/logo.png" />
 
 The iceberg is melting, grab as many trout as you can!
 
