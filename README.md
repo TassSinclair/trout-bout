@@ -19,13 +19,13 @@ The rules are available [on the game's website](https://images-cdn.fantasyflight
 
 *Print the tiles and inserts on 0.1mm layer height.*
 
-- 10 triple-trout tiles
+- 10 <img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/tile-3.png" /> triple-trout tiles
   - and 10 hexagonal inserts of the same colour
-- 20 double-trout tiles
+- 20 <img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/tile-2.png" /> double-trout tiles
   - and 20 hexagonal inserts of the same colour
-- 30 single-trout tiles
+- 30 <img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/tile-1.png" /> single-trout tiles
   - and 30 hexagonal inserts of the same colour
-- 16 player figurines
+- 16 <img src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/penguin.png" /> penguin figurines
   - 4 per player, choose different colours for each player
 
 ### Assemble
