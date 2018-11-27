@@ -33,3 +33,4 @@ The rules are available [on the game's website](https://images-cdn.fantasyflight
 
 - Match up each tile with its coloured insert, and glue it in.
 
+[Check out Trout Bout on Thingiverse](https://www.thingiverse.com/thing:3233384)
