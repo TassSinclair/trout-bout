@@ -1,6 +1,6 @@
 <img alt="Trout Bout" src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/logo.png" />
 
-<img alt="Setup" src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/setup.png" />
+<img alt="Setup" src="https://raw.githubusercontent.com/tasssinclair/trout-bout/master/setup.png" width="300" />
 The iceberg is melting, grab as many trout as you can!
 
 3D printable replacement pieces for ["Hey, That's my Fish!"](https://www.fantasyflightgames.com/en/products/hey-thats-my-fish/products/hey-thats-my-fish/).
